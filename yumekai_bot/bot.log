@@ -1,0 +1,210 @@
+2025-12-17 22:29:29,155 - __main__ - INFO - Starting bot...
+2025-12-17 22:29:29,311 - __main__ - INFO - Database initialized successfully
+2025-12-17 22:29:32,397 - __main__ - INFO - Bot started: @yumekai_bot
+2025-12-17 22:29:32,398 - aiogram.dispatcher - INFO - Start polling
+2025-12-17 22:29:32,500 - aiogram.dispatcher - INFO - Run polling for bot @yumekai_bot id=8534700957 - 'YumekaiUz'
+2025-12-17 22:30:56,468 - aiogram.event - INFO - Update id=466763049 is handled. Duration 489 ms by bot id=8534700957
+2025-12-17 22:32:42,430 - __main__ - INFO - Starting bot...
+2025-12-17 22:32:42,439 - __main__ - INFO - Database initialized successfully
+2025-12-17 22:32:42,998 - __main__ - INFO - Bot started: @yumekai_bot
+2025-12-17 22:32:42,999 - aiogram.dispatcher - INFO - Start polling
+2025-12-17 22:32:43,100 - aiogram.dispatcher - INFO - Run polling for bot @yumekai_bot id=8534700957 - 'YumekaiUz'
+2025-12-17 22:32:52,877 - aiogram.event - INFO - Update id=466763050 is handled. Duration 384 ms by bot id=8534700957
+2025-12-17 22:32:55,900 - aiogram.event - INFO - Update id=466763051 is handled. Duration 128 ms by bot id=8534700957
+2025-12-17 22:33:16,818 - aiogram.event - INFO - Update id=466763052 is handled. Duration 165 ms by bot id=8534700957
+2025-12-17 22:33:23,854 - aiogram.event - INFO - Update id=466763053 is handled. Duration 237 ms by bot id=8534700957
+2025-12-17 22:33:30,151 - aiogram.event - INFO - Update id=466763054 is handled. Duration 489 ms by bot id=8534700957
+2025-12-17 22:33:34,312 - aiogram.event - INFO - Update id=466763055 is handled. Duration 247 ms by bot id=8534700957
+2025-12-17 22:33:41,164 - aiogram.event - INFO - Update id=466763056 is handled. Duration 279 ms by bot id=8534700957
+2025-12-17 22:33:43,242 - aiogram.event - INFO - Update id=466763057 is handled. Duration 203 ms by bot id=8534700957
+2025-12-17 22:33:50,528 - aiogram.event - INFO - Update id=466763058 is handled. Duration 249 ms by bot id=8534700957
+2025-12-17 22:33:54,445 - aiogram.event - INFO - Update id=466763059 is handled. Duration 212 ms by bot id=8534700957
+2025-12-17 22:35:21,684 - aiogram.event - INFO - Update id=466763060 is handled. Duration 170 ms by bot id=8534700957
+2025-12-17 22:35:33,436 - aiogram.event - INFO - Update id=466763061 is handled. Duration 178 ms by bot id=8534700957
+2025-12-17 22:35:41,059 - aiogram.event - INFO - Update id=466763062 is handled. Duration 139 ms by bot id=8534700957
+2025-12-17 22:35:43,749 - aiogram.event - INFO - Update id=466763063 is handled. Duration 147 ms by bot id=8534700957
+2025-12-17 22:35:45,672 - aiogram.event - INFO - Update id=466763064 is handled. Duration 298 ms by bot id=8534700957
+2025-12-17 22:41:42,238 - __main__ - INFO - Starting bot...
+2025-12-17 22:41:42,249 - __main__ - INFO - Database initialized successfully
+2025-12-17 22:41:42,840 - __main__ - INFO - Bot started: @yumekai_bot
+2025-12-17 22:41:42,840 - aiogram.dispatcher - INFO - Start polling
+2025-12-17 22:41:42,945 - aiogram.dispatcher - INFO - Run polling for bot @yumekai_bot id=8534700957 - 'YumekaiUz'
+2025-12-17 22:44:28,165 - aiogram.event - INFO - Update id=466763065 is handled. Duration 379 ms by bot id=8534700957
+2025-12-17 22:44:29,913 - aiogram.event - INFO - Update id=466763066 is handled. Duration 165 ms by bot id=8534700957
+2025-12-17 22:44:37,031 - aiogram.event - INFO - Update id=466763067 is handled. Duration 126 ms by bot id=8534700957
+2025-12-17 22:44:46,280 - aiogram.event - INFO - Update id=466763068 is handled. Duration 169 ms by bot id=8534700957
+2025-12-17 22:44:48,989 - aiogram.event - INFO - Update id=466763069 is handled. Duration 435 ms by bot id=8534700957
+2025-12-17 22:44:50,058 - aiogram.event - INFO - Update id=466763070 is handled. Duration 343 ms by bot id=8534700957
+2025-12-17 22:44:50,874 - aiogram.event - INFO - Update id=466763071 is handled. Duration 314 ms by bot id=8534700957
+2025-12-17 22:44:52,444 - aiogram.event - INFO - Update id=466763072 is handled. Duration 255 ms by bot id=8534700957
+2025-12-17 22:44:53,247 - aiogram.event - INFO - Update id=466763073 is handled. Duration 263 ms by bot id=8534700957
+2025-12-17 22:44:54,329 - aiogram.event - INFO - Update id=466763074 is handled. Duration 138 ms by bot id=8534700957
+2025-12-17 22:44:58,978 - aiogram.event - INFO - Update id=466763075 is handled. Duration 158 ms by bot id=8534700957
+2025-12-17 22:45:07,866 - aiogram.event - INFO - Update id=466763076 is handled. Duration 134 ms by bot id=8534700957
+2025-12-17 22:45:13,207 - aiogram.event - INFO - Update id=466763077 is handled. Duration 255 ms by bot id=8534700957
+2025-12-17 22:49:19,884 - aiogram.event - INFO - Update id=466763078 is handled. Duration 138 ms by bot id=8534700957
+2025-12-17 22:50:58,233 - aiogram.event - INFO - Update id=466763079 is handled. Duration 202 ms by bot id=8534700957
+2025-12-17 22:51:58,400 - aiogram.event - INFO - Update id=466763080 is handled. Duration 240 ms by bot id=8534700957
+2025-12-17 22:54:39,283 - __main__ - INFO - Starting bot...
+2025-12-17 22:54:39,304 - __main__ - INFO - Database initialized successfully
+2025-12-17 22:54:39,885 - __main__ - INFO - Bot started: @yumekai_bot
+2025-12-17 22:54:39,885 - aiogram.dispatcher - INFO - Start polling
+2025-12-17 22:54:39,989 - aiogram.dispatcher - INFO - Run polling for bot @yumekai_bot id=8534700957 - 'YumekaiUz'
+2025-12-17 22:55:22,750 - aiogram.event - INFO - Update id=466763081 is handled. Duration 360 ms by bot id=8534700957
+2025-12-17 22:55:35,041 - aiogram.event - INFO - Update id=466763082 is handled. Duration 255 ms by bot id=8534700957
+2025-12-17 22:55:37,396 - aiogram.event - INFO - Update id=466763083 is handled. Duration 219 ms by bot id=8534700957
+2025-12-17 22:55:44,774 - aiogram.event - INFO - Update id=466763084 is handled. Duration 128 ms by bot id=8534700957
+2025-12-17 22:55:54,641 - aiogram.event - INFO - Update id=466763085 is handled. Duration 159 ms by bot id=8534700957
+2025-12-17 22:55:57,589 - aiogram.event - INFO - Update id=466763086 is handled. Duration 390 ms by bot id=8534700957
+2025-12-17 22:55:58,746 - aiogram.event - INFO - Update id=466763087 is handled. Duration 330 ms by bot id=8534700957
+2025-12-17 22:55:59,908 - aiogram.event - INFO - Update id=466763088 is handled. Duration 250 ms by bot id=8534700957
+2025-12-17 22:56:01,714 - aiogram.event - INFO - Update id=466763089 is handled. Duration 165 ms by bot id=8534700957
+2025-12-17 22:56:07,195 - aiogram.event - INFO - Update id=466763090 is handled. Duration 195 ms by bot id=8534700957
+2025-12-17 22:56:19,478 - aiogram.event - INFO - Update id=466763091 is handled. Duration 127 ms by bot id=8534700957
+2025-12-17 22:56:36,177 - aiogram.event - INFO - Update id=466763092 is handled. Duration 188 ms by bot id=8534700957
+2025-12-17 22:56:47,138 - aiogram.event - INFO - Update id=466763093 is handled. Duration 254 ms by bot id=8534700957
+2025-12-17 22:56:52,070 - aiogram.event - INFO - Update id=466763094 is handled. Duration 210 ms by bot id=8534700957
+2025-12-17 22:56:55,502 - aiogram.event - INFO - Update id=466763095 is handled. Duration 134 ms by bot id=8534700957
+2025-12-17 22:57:02,399 - aiogram.event - INFO - Update id=466763096 is handled. Duration 200 ms by bot id=8534700957
+2025-12-17 22:57:05,508 - aiogram.event - INFO - Update id=466763097 is handled. Duration 162 ms by bot id=8534700957
+2025-12-17 22:57:10,083 - aiogram.event - INFO - Update id=466763098 is not handled. Duration 7 ms by bot id=8534700957
+2025-12-17 22:57:12,151 - aiogram.event - INFO - Update id=466763099 is not handled. Duration 10 ms by bot id=8534700957
+2025-12-17 22:57:13,342 - aiogram.event - INFO - Update id=466763100 is handled. Duration 147 ms by bot id=8534700957
+2025-12-17 22:57:15,164 - aiogram.event - INFO - Update id=466763101 is handled. Duration 141 ms by bot id=8534700957
+2025-12-17 22:57:17,103 - aiogram.event - INFO - Update id=466763102 is handled. Duration 174 ms by bot id=8534700957
+2025-12-17 22:57:20,321 - aiogram.event - INFO - Update id=466763103 is handled. Duration 135 ms by bot id=8534700957
+2025-12-17 22:57:22,343 - aiogram.event - INFO - Update id=466763104 is handled. Duration 149 ms by bot id=8534700957
+2025-12-17 22:57:24,755 - aiogram.event - INFO - Update id=466763105 is handled. Duration 148 ms by bot id=8534700957
+2025-12-17 22:57:37,785 - aiogram.event - INFO - Update id=466763106 is handled. Duration 194 ms by bot id=8534700957
+2025-12-17 22:57:40,648 - aiogram.event - INFO - Update id=466763107 is handled. Duration 153 ms by bot id=8534700957
+2025-12-17 22:58:18,267 - aiogram.event - INFO - Update id=466763108 is handled. Duration 270 ms by bot id=8534700957
+2025-12-17 22:58:20,702 - aiogram.event - INFO - Update id=466763109 is handled. Duration 225 ms by bot id=8534700957
+2025-12-17 22:58:22,800 - aiogram.event - INFO - Update id=466763110 is handled. Duration 318 ms by bot id=8534700957
+2025-12-17 22:58:30,003 - aiogram.event - INFO - Update id=466763111 is handled. Duration 368 ms by bot id=8534700957
+2025-12-17 22:58:34,202 - aiogram.event - INFO - Update id=466763112 is handled. Duration 319 ms by bot id=8534700957
+2025-12-17 23:10:56,015 - __main__ - INFO - Starting bot...
+2025-12-17 23:10:56,034 - __main__ - INFO - Database initialized successfully
+2025-12-17 23:10:56,614 - __main__ - INFO - Bot started: @yumekai_bot
+2025-12-17 23:10:56,614 - aiogram.dispatcher - INFO - Start polling
+2025-12-17 23:10:56,713 - aiogram.dispatcher - INFO - Run polling for bot @yumekai_bot id=8534700957 - 'YumekaiUz'
+2025-12-17 23:11:16,587 - aiogram.event - INFO - Update id=466763113 is handled. Duration 370 ms by bot id=8534700957
+2025-12-17 23:11:21,051 - aiogram.event - INFO - Update id=466763114 is handled. Duration 169 ms by bot id=8534700957
+2025-12-17 23:11:25,193 - aiogram.event - INFO - Update id=466763115 is handled. Duration 410 ms by bot id=8534700957
+2025-12-17 23:11:56,821 - aiogram.event - INFO - Update id=466763116 is handled. Duration 145 ms by bot id=8534700957
+2025-12-17 23:11:59,014 - aiogram.event - INFO - Update id=466763117 is handled. Duration 474 ms by bot id=8534700957
+2025-12-17 23:12:46,017 - aiogram.event - INFO - Update id=466763118 is handled. Duration 250 ms by bot id=8534700957
+2025-12-17 23:12:47,712 - aiogram.event - INFO - Update id=466763119 is handled. Duration 372 ms by bot id=8534700957
+2025-12-17 23:14:47,782 - __main__ - INFO - Starting bot...
+2025-12-17 23:14:47,793 - __main__ - INFO - Database initialized successfully
+2025-12-17 23:14:48,384 - __main__ - INFO - Bot started: @yumekai_bot
+2025-12-17 23:14:48,384 - aiogram.dispatcher - INFO - Start polling
+2025-12-17 23:14:48,481 - aiogram.dispatcher - INFO - Run polling for bot @yumekai_bot id=8534700957 - 'YumekaiUz'
+2025-12-17 23:15:01,814 - aiogram.event - INFO - Update id=466763120 is handled. Duration 357 ms by bot id=8534700957
+2025-12-17 23:15:21,873 - aiogram.event - INFO - Update id=466763121 is handled. Duration 483 ms by bot id=8534700957
+2025-12-17 23:16:14,967 - aiogram.event - INFO - Update id=466763122 is handled. Duration 187 ms by bot id=8534700957
+2025-12-17 23:16:19,641 - aiogram.event - INFO - Update id=466763123 is handled. Duration 126 ms by bot id=8534700957
+2025-12-17 23:16:25,401 - aiogram.event - INFO - Update id=466763124 is handled. Duration 129 ms by bot id=8534700957
+2025-12-17 23:16:28,875 - aiogram.event - INFO - Update id=466763125 is handled. Duration 286 ms by bot id=8534700957
+2025-12-17 23:16:47,719 - aiogram.event - INFO - Update id=466763126 is handled. Duration 367 ms by bot id=8534700957
+2025-12-17 23:16:57,031 - aiogram.event - INFO - Update id=466763127 is handled. Duration 290 ms by bot id=8534700957
+2025-12-17 23:17:01,067 - aiogram.event - INFO - Update id=466763128 is handled. Duration 383 ms by bot id=8534700957
+2025-12-17 23:17:03,081 - aiogram.event - INFO - Update id=466763129 is handled. Duration 328 ms by bot id=8534700957
+2025-12-17 23:17:04,681 - aiogram.event - INFO - Update id=466763130 is handled. Duration 344 ms by bot id=8534700957
+2025-12-17 23:17:06,571 - aiogram.event - INFO - Update id=466763131 is handled. Duration 375 ms by bot id=8534700957
+2025-12-17 23:17:12,312 - aiogram.event - INFO - Update id=466763132 is handled. Duration 531 ms by bot id=8534700957
+2025-12-17 23:17:14,360 - aiogram.event - INFO - Update id=466763133 is handled. Duration 484 ms by bot id=8534700957
+2025-12-17 23:19:24,123 - aiogram.event - INFO - Update id=466763134 is handled. Duration 122 ms by bot id=8534700957
+2025-12-17 23:19:55,727 - aiogram.event - INFO - Update id=466763135 is handled. Duration 145 ms by bot id=8534700957
+2025-12-17 23:19:58,866 - aiogram.event - INFO - Update id=466763136 is handled. Duration 472 ms by bot id=8534700957
+2025-12-17 23:20:13,913 - aiogram.event - INFO - Update id=466763137 is handled. Duration 210 ms by bot id=8534700957
+2025-12-17 23:20:17,269 - aiogram.event - INFO - Update id=466763138 is handled. Duration 393 ms by bot id=8534700957
+2025-12-17 23:20:21,323 - aiogram.event - INFO - Update id=466763139 is handled. Duration 419 ms by bot id=8534700957
+2025-12-17 23:22:32,556 - aiogram.event - INFO - Update id=466763140 is handled. Duration 183 ms by bot id=8534700957
+2025-12-17 23:44:30,268 - aiogram.event - INFO - Update id=466763141 is handled. Duration 451 ms by bot id=8534700957
+2025-12-17 23:44:30,688 - aiogram.event - INFO - Update id=466763142 is not handled. Duration 141 ms by bot id=8534700957
+2025-12-17 23:44:30,688 - aiogram.event - ERROR - Cause exception while process update id=466763142 by bot id=8534700957
+TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\yumekai\yumekai_bot\handlers\callbacks.py", line 75, in show_catalog
+    await callback.message.edit_text(
+    ...<3 lines>...
+    )
+  File "C:\Python313\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\Python313\Lib\site-packages\aiogram\client\session\base.py", line 121, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+2025-12-17 23:44:35,286 - aiogram.event - INFO - Update id=466763143 is handled. Duration 431 ms by bot id=8534700957
+2025-12-17 23:44:41,383 - aiogram.event - INFO - Update id=466763144 is handled. Duration 337 ms by bot id=8534700957
+2025-12-17 23:44:43,612 - aiogram.event - INFO - Update id=466763145 is handled. Duration 376 ms by bot id=8534700957
+2025-12-17 23:44:47,262 - aiogram.event - INFO - Update id=466763146 is handled. Duration 375 ms by bot id=8534700957
