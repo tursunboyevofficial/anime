@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot token
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8534700957:AAF-Po56KTSsRY6ItmM1PJNep61gw2F5quk")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Admin ID'lar (Telegram user ID)
 ADMIN_IDS = [5291425408]  # @tursunboyevofficial
