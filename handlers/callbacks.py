@@ -23,6 +23,31 @@ from handlers.user import SearchState
 callback_router = Router()
 
 
+async def send_to_user(callback: CallbackQuery, bot: Bot, text: str, reply_markup=None, photo=None):
+    """Foydalanuvchiga xabar yuborish (kanaldan ham ishlaydi)"""
+    user_id = callback.from_user.id
+
+    try:
+        if photo:
+            await bot.send_photo(
+                chat_id=user_id,
+                photo=photo,
+                caption=text,
+                reply_markup=reply_markup,
+                parse_mode="HTML"
+            )
+        else:
+            await bot.send_message(
+                chat_id=user_id,
+                text=text,
+                reply_markup=reply_markup,
+                parse_mode="HTML"
+            )
+        await callback.answer()
+    except Exception as e:
+        await callback.answer(f"❌ Avval botga /start yuboring!", show_alert=True)
+
+
 # ============== BOSH MENYU ==============
 
 @callback_router.callback_query(F.data == "main_menu")
@@ -82,7 +107,7 @@ async def show_catalog(callback: CallbackQuery):
 # ============== ANIME MA'LUMOTLARI ==============
 
 @callback_router.callback_query(F.data.startswith("anime:"))
-async def show_anime(callback: CallbackQuery):
+async def show_anime(callback: CallbackQuery, bot: Bot):
     """Anime ma'lumotlarini ko'rsatish"""
     anime_id = int(callback.data.split(":")[1])
 
@@ -121,27 +146,38 @@ async def show_anime(callback: CallbackQuery):
 📖 <b>Tavsif:</b>
 {anime['description'] or "Tavsif mavjud emas."}"""
 
-    # Poster bilan yuborish
-    if anime["poster_file_id"]:
-        await callback.message.delete()
-        await callback.message.answer_photo(
-            photo=anime["poster_file_id"],
-            caption=text,
+    # Kanal yoki guruhdan kelganini tekshirish
+    is_from_channel = callback.message.chat.type in ["channel", "supergroup", "group"]
+
+    if is_from_channel:
+        # Kanaldan kelgan - foydalanuvchiga to'g'ridan-to'g'ri yuborish
+        await send_to_user(
+            callback, bot, text,
             reply_markup=anime_keyboard(anime_id, anime["episodes_count"] > 0),
-            parse_mode="HTML"
+            photo=anime["poster_file_id"] if anime["poster_file_id"] else None
         )
     else:
-        await callback.message.edit_text(
-            text,
-            reply_markup=anime_keyboard(anime_id, anime["episodes_count"] > 0),
-            parse_mode="HTML"
-        )
+        # Shaxsiy chatdan kelgan - odatdagidek ishlash
+        if anime["poster_file_id"]:
+            await callback.message.delete()
+            await callback.message.answer_photo(
+                photo=anime["poster_file_id"],
+                caption=text,
+                reply_markup=anime_keyboard(anime_id, anime["episodes_count"] > 0),
+                parse_mode="HTML"
+            )
+        else:
+            await callback.message.edit_text(
+                text,
+                reply_markup=anime_keyboard(anime_id, anime["episodes_count"] > 0),
+                parse_mode="HTML"
+            )
 
 
 # ============== QISMLAR RO'YXATI ==============
 
 @callback_router.callback_query(F.data.startswith("episodes:"))
-async def show_episodes(callback: CallbackQuery):
+async def show_episodes(callback: CallbackQuery, bot: Bot):
     """Qismlar ro'yxatini ko'rsatish"""
     anime_id = int(callback.data.split(":")[1])
 
@@ -157,20 +193,29 @@ async def show_episodes(callback: CallbackQuery):
 
     text = f"📺 <b>{anime['name']}</b> | Qismlar\n\nKo'rish uchun qism tanlang:"
 
-    # Agar oldingi xabar rasm bo'lsa, yangi xabar yuborish
-    try:
-        await callback.message.edit_text(
-            text,
-            reply_markup=episodes_keyboard(anime_id, episodes),
-            parse_mode="HTML"
+    # Kanal yoki guruhdan kelganini tekshirish
+    is_from_channel = callback.message.chat.type in ["channel", "supergroup", "group"]
+
+    if is_from_channel:
+        await send_to_user(
+            callback, bot, text,
+            reply_markup=episodes_keyboard(anime_id, episodes)
         )
-    except Exception:
-        await callback.message.delete()
-        await callback.message.answer(
-            text,
-            reply_markup=episodes_keyboard(anime_id, episodes),
-            parse_mode="HTML"
-        )
+    else:
+        # Agar oldingi xabar rasm bo'lsa, yangi xabar yuborish
+        try:
+            await callback.message.edit_text(
+                text,
+                reply_markup=episodes_keyboard(anime_id, episodes),
+                parse_mode="HTML"
+            )
+        except Exception:
+            await callback.message.delete()
+            await callback.message.answer(
+                text,
+                reply_markup=episodes_keyboard(anime_id, episodes),
+                parse_mode="HTML"
+            )
 
 
 # ============== VIDEO KO'RISH ==============
@@ -202,27 +247,31 @@ async def watch_episode(callback: CallbackQuery, bot: Bot):
 
     # Video yuborish (video yoki document sifatida)
     file_id = episode["video_file_id"]
+    user_id = callback.from_user.id
 
     try:
         # Avval video sifatida yuborishga harakat qilish
         await bot.send_video(
-            chat_id=callback.from_user.id,
+            chat_id=user_id,
             video=file_id,
             caption=caption,
             reply_markup=episode_navigation_keyboard(anime_id, episode_number, total_eps),
             parse_mode="HTML"
         )
-    except Exception:
-        # Agar video bo'lmasa, document sifatida yuborish
-        await bot.send_document(
-            chat_id=callback.from_user.id,
-            document=file_id,
-            caption=caption,
-            reply_markup=episode_navigation_keyboard(anime_id, episode_number, total_eps),
-            parse_mode="HTML"
-        )
-
-    await callback.answer()
+        await callback.answer()
+    except Exception as e:
+        try:
+            # Agar video bo'lmasa, document sifatida yuborish
+            await bot.send_document(
+                chat_id=user_id,
+                document=file_id,
+                caption=caption,
+                reply_markup=episode_navigation_keyboard(anime_id, episode_number, total_eps),
+                parse_mode="HTML"
+            )
+            await callback.answer()
+        except Exception:
+            await callback.answer("❌ Avval botga /start yuboring!", show_alert=True)
 
 
 # ============== JANRLAR ==============
