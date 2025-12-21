@@ -12,7 +12,7 @@ ADMIN_IDS = [5291425408]  # @tursunboyevofficial
 # Kanal sozlamalari
 STORE_CHANNEL_ID = -1001234567890  # Yashirin kanal ID (@yumekai_store)
 MAIN_CHANNEL = -1003514369530  # @yumekaiuz kanal ID
-BOT_USERNAME = "yumekai_bot"  # Bot username (@ siz)
+BOT_USERNAME = "yumekaiuzbot"  # Bot username (@ siz)
 
 # Database
 DATABASE_PATH = "data/yumekai.db"
