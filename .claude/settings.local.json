@@ -7,7 +7,17 @@
       "Bash(cat:*)",
       "Bash(python:*)",
       "Bash(git remote add:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(npx create-next-app:*)",
+      "Bash(npm install:*)",
+      "Bash(cmd /c \"dir D:\\\\Projects\")",
+      "Bash(cmd /c \"if not exist D:\\\\Projects mkdir D:\\\\Projects && cd /d D:\\\\Projects && npx create-next-app@latest anime-site --typescript --tailwind --eslint --app --src-dir --use-npm --yes\")",
+      "Bash(cmd /c \"D: && cd D:\\\\ && mkdir Projects 2>nul && cd Projects && npx create-next-app@latest anime-site --typescript --tailwind --eslint --app --src-dir --use-npm\")",
+      "Bash(powershell -Command \"Set-Location D:\\\\; if \\(!\\(Test-Path ''Projects''\\)\\) { New-Item -ItemType Directory -Name ''Projects'' }; Set-Location Projects; npx create-next-app@latest anime-site --typescript --tailwind --eslint --app --src-dir --use-npm --yes\")",
+      "Bash(powershell -Command \"Get-ChildItem D:\\\\anime-site\")",
+      "Bash(curl:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
